@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a5fff"/>
+      <stop offset="100%" stop-color="#4b2eff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="32" fill="#0e0e1a"/>
+  <text x="50%" y="55%" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="120" font-weight="700" fill="url(#g)">TD</text>
+  <text x="50%" y="80%" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="42" font-weight="400" fill="#ffffff" opacity="0.9">Thiago Dev</text>
+</svg>
