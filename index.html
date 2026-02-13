@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago Feijó | Full-Stack Dev</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <canvas id="matrix-bg"></canvas>
+
+    <nav>
+        <div class="logo">Dev<span>Feijo</span></div>
+        
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato" class="btn-contato">Orçamento</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">🚀 Full-Stack Developer</span>
+            <h1>Eu construo <br> <span class="typewriter"></span><span class="cursor">|</span></h1>
+            <p>Transformo ideias complexas em código limpo, funcional e lucrativo.</p>
+            <div class="botoes">
+                <a href="#projetos" class="btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn-secondary"><i class="fab fa-whatsapp"></i> Vamos Conversar</a>
+            </div>
+        </div>
+        
+        <div class="hero-img">
+            <img src="img/eu.jpg" alt="Foto do Thiago">
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos-section">
+        <h2>Meus Trabalhos Recentes</h2>
+        
+        <div class="grid-projetos">
+            
+            <div class="card-projeto">
+                <div class="card-img" style="background: linear-gradient(45deg, #1a1a2e, #16213e);">
+                    <div class="overlay">
+                        <a href="#" class="btn-ver" target="_blank">Ver Código <i class="fab fa-github"></i></a>
+                    </div>
+                    <i class="fas fa-server" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; color: rgba(255,255,255,0.1);"></i>
+                </div>
+                <div class="card-info">
+                    <h3>Helpdesk SaaS Pro</h3>
+                    <p>Sistema corporativo de gestão de chamados. Controle total de tickets, níveis de acesso (Admin/Técnico) e métricas de performance.</p>
+                    <div class="techs">
+                        <span>Node.js</span>
+                        <span>PostgreSQL</span>
+                        <span>Prisma</span>
+                        <span>JWT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-projeto">
+                <div class="card-img" style="background: linear-gradient(45deg, #cc2b5e, #753a88);">
+                    <div class="overlay">
+                        <a href="#" class="btn-ver" target="_blank">Ver App <i class="fas fa-mobile-alt"></i></a>
+                    </div>
+                    <i class="fas fa-plane-departure" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; color: rgba(255,255,255,0.1);"></i>
+                </div>
+                <div class="card-info">
+                    <h3>Canada OS</h3>
+                    <p>Aplicação Mobile para planejamento financeiro e imigração. Rastreamento de metas em CAD/BRL e rotina de estudos de inglês.</p>
+                    <div class="techs">
+                        <span>React Native</span>
+                        <span>Mobile</span>
+                        <span>Finanças</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-projeto">
+                <div class="card-img" style="background: linear-gradient(45deg, #000000, #434343);">
+                    <div class="overlay">
+                        <a href="#" class="btn-ver" target="_blank">Ver Online <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <i class="fas fa-car" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; color: rgba(255,255,255,0.1);"></i>
+                </div>
+                <div class="card-info">
+                    <h3>Landing Page Automotiva</h3>
+                    <p>Site de alta conversão para estética automotiva. Foco em SEO local, carregamento rápido e design premium.</p>
+                    <div class="techs">
+                        <span>HTML/CSS</span>
+                        <span>SEO</span>
+                        <span>Vendas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-projeto">
+                <div class="card-img" style="background: linear-gradient(45deg, #11998e, #38ef7d);">
+                    <div class="overlay">
+                        <a href="#" class="btn-ver" target="_blank">Acessar Loja <i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                    <i class="fas fa-shopping-bag" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; color: rgba(255,255,255,0.1);"></i>
+                </div>
+                <div class="card-info">
+                    <h3>Nexus Digital Store</h3>
+                    <p>E-commerce completo para venda de infoprodutos e cursos. Integração com gateways de pagamento e entrega automática.</p>
+                    <div class="techs">
+                        <span>Full-Stack</span>
+                        <span>Stripe API</span>
+                        <span>Automação</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos-section">
+        <h2>O que eu faço?</h2>
+        <div class="grid-servicos">
+            <div class="card-servico">
+                <i class="fas fa-code"></i>
+                <h3>Websites Modernos</h3>
+                <p>Landing pages de alta conversão e sites institucionais rápidos e responsivos.</p>
+            </div>
+            <div class="card-servico">
+                <i class="fas fa-robot"></i>
+                <h3>Automação & IA</h3>
+                <p>Chatbots para WhatsApp e automações com IA para escalar seu atendimento.</p>
+            </div>
+            <div class="card-servico">
+                <i class="fas fa-layer-group"></i>
+                <h3>Sistemas Web</h3>
+                <p>Dashboards administrativos, gestão de estoque e sistemas SaaS completos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre-section">
+        <div class="sobre-container">
+            <h2>Minha Stack</h2>
+            <div class="skills-grid">
+                <div class="skill-box"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="skill-box"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="skill-box"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="skill-box"><i class="fab fa-node-js"></i> Node.js</div>
+                <div class="skill-box"><i class="fas fa-database"></i> SQL / Prisma</div>
+                <div class="skill-box" style="border-color: var(--accent); color: var(--accent);">
+                    <i class="fas fa-brain"></i> AI Integration
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-section">
+        <div class="contato-container">
+            <div class="contato-info">
+                <h2>Mande sua ideia</h2>
+                <p>Tem um projeto em mente? Me mande uma mensagem e vamos tirar essa ideia do papel.</p>
+                <div class="info-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>(11) 98767-1339</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>feijofefe55@gmail.com</span>
+                </div>
+            </div>
+    
+            <form class="form-contato" action="https://formspree.io/f/xvzpvrpe" method="POST">
+                <div class="input-group">
+                    <input type="text" name="nome" required>
+                    <label>Seu Nome</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="email" required>
+                    <label>Seu E-mail</label>
+                </div>
+                <div class="input-group">
+                    <textarea name="mensagem" required></textarea>
+                    <label>Sobre o Projeto</label>
+                </div>
+                
+                <button type="submit" class="btn-primary" style="width: 100%;">Enviar Mensagem 🚀</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por <strong>Thiago Feijó</strong> © 2026</p>
+        <div class="socials">
+            <a href="https://github.com/thiagofefe54" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/thiago-feij%C3%B3-b6294739b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com/dev_feijo" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
